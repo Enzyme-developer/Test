@@ -60,7 +60,7 @@
     .module {
         flex-direction: column;
         align-items: flex-start;
-        gap: 20px;
+        margin: 3rem 0 ;
     }
 
     .module__text__desc {
@@ -69,5 +69,10 @@
 
     .module__text {
         margin-left: unset;
+    }
+    .module__image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
     }
 }
