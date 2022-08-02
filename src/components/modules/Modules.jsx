@@ -6,7 +6,7 @@ const Modules = () => {
   return (
     <main className='module__container'>
 
-      <h1 className='billing'>Billing and Accounts</h1> 
+      <h2 className='billing'>Billing and Accounts</h2> 
 
       <Module
         banner="HR"

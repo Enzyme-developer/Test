@@ -10,10 +10,10 @@ const Module = ({heading, desc, price, banner}) => {
         </div>
         
           <div className="module__text">
-              <h4>{heading}</h4>
-              <p className='module__text__desc'>{desc}</p>
-              <p className="module__text__low">for as low as</p>
-              <p className="module__text__price"><span className='price'>{price}</span> per employer</p>
+            <h3>{heading}</h3>
+            <p className='module__text__desc'>{desc}</p>
+            <p className="module__text__low">For as low as</p>
+            <p className="module__text__price"><span className='price'>{price}</span> per employer</p>
         </div>
     </div>
   )

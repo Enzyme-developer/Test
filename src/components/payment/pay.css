@@ -6,7 +6,7 @@
 
 .payment{
     width: 30%;
-    background-color: gray;
+    background-color: lightgray;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,8 @@
 
 .payment__top__logo {
     color: rgb(5, 5, 117);
-    font-stretch: narrower;
+    letter-spacing: 0rem;
+    filter: drop-shadow(1px 1px 1px  black);
 }
 
 .payment__top__desc {
@@ -33,22 +34,30 @@
     text-align: center;
 }
 
+.payment__middle__paying {
+    font-weight: normal;
+    color: rgb(54, 53, 53);
+}
+
 .payment__middle__price {
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-weight: bolder;
+    font-size: 1.5rem;  
+    filter: drop-shadow(1px 1px 1px  black);
 }
 
 .payment__middle__people {
-    color: #cec5c5;
+    color: gray;
     margin-top: 5px;
+    font-size: 0.8rem;
+    opacity: .7;
 }
 
 button {
-    background-color: cornflowerblue;
+    background-color: rgb(91, 144, 243);
     color: white;
     border: none;
-    border-radius: 15px;
-    padding: .5rem 1rem;
+    border-radius: 20px;
+    padding: .7rem 1rem 1rem;
     width: 200px;
     cursor: pointer;
 }
@@ -58,10 +67,10 @@ button {
 	height: 0;
     margin-left: 5px;
     position: relative;
-    top: 2px;
+    top: 5px;
 	border-left: 95px solid transparent;
 	border-right: 95px solid transparent;
-	border-bottom: 30px solid cornflowerblue;
+	border-bottom: 30px solid rgb(91, 144, 243);;
 }
 
 @media (max-width: 768px) {
