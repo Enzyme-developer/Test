@@ -6,7 +6,8 @@
 
 .App {
     display: flex;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
 }
 
 @media (max-width: 768px) {
