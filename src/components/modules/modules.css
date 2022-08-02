@@ -1,0 +1,14 @@
+.module__container {
+    padding: 1rem 2rem;
+    width: 70%;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+@media (max-width: 768px) {
+    .module__container {
+        width: 100%;
+    }
+}
