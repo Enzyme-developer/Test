@@ -23,7 +23,7 @@
 .payment__top__logo {
     color: rgb(5, 5, 117);
     letter-spacing: 0rem;
-    filter: drop-shadow(1px 1px 1px  black);
+    filter: drop-shadow(1px 2px 3px  gray);
 }
 
 .payment__top__desc {
@@ -42,7 +42,7 @@
 .payment__middle__price {
     font-weight: bolder;
     font-size: 1.5rem;  
-    filter: drop-shadow(1px 1px 1px  black);
+    filter: drop-shadow(1px 2px 4px  gray);
 }
 
 .payment__middle__people {
